@@ -1,0 +1,10 @@
+#自定义配置项
+com:
+  itheima:
+    name: heima
+    
+
+#激活其它配置文件：application-a.yml,application-b.yml
+spring:
+  profiles:
+    active: a,b
